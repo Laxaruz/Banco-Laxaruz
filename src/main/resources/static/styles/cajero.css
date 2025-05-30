@@ -341,6 +341,16 @@ table tr:last-child td {
     color: #22543d;
 }
 
+.movement-type.transfer {
+    background-color: #fefcbf;
+    color: #b7791f;
+}
+
+.movement-type.info {
+    background-color: #bee3f8;
+    color: #2b6cb0;
+}
+
 .amount {
     font-weight: 700;
     font-size: 1rem;
@@ -353,6 +363,10 @@ table tr:last-child td {
 
 .amount.positive {
     color: #38a169;
+}
+
+.amount.info {
+    color: #2b6cb0;
 }
 
 .text-right {
@@ -745,17 +759,17 @@ table tr:last-child td {
     .transaction-form {
         padding: 1.5rem;
     }
-    
+
     .amount-buttons {
         grid-template-columns: repeat(2, 1fr);
     }
-    
+
     .info-item {
         flex-direction: column;
         align-items: flex-start;
         gap: 0.25rem;
     }
-    
+
     .currency-input {
         font-size: 1.1rem;
     }
